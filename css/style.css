@@ -1,0 +1,53 @@
+.contenitore {
+  width: 910px;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+}
+
+.articolo {
+  width: 300px;
+  position: relative;
+  display: inline-block;
+}
+
+.articolo > .sconto1 {
+  width: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+}
+
+.articolo > .sconto2 {
+  width: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  text-align: center;
+}
+
+.prima {
+  padding-bottom: 35px;
+}
+
+.seconda {
+  padding-bottom: 50px;
+}
+
+img {
+position: relative;
+}
+
+.cuore {
+width: 300px;
+position: absolute;
+bottom: 0;
+font-size: 20px;
+display: none;
+}
+
+.articolo:hover .cuore {
+  display: block;
+}
